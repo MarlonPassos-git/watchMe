@@ -33,6 +33,8 @@
         margin-top: auto;
         margin-bottom: 0.5rem;
       }
+
+      
   
       .meta {
         display: flex;
@@ -56,4 +58,19 @@
       }
     }
   }
+}
+
+.movies-list {
+  grid-template-columns: repeat(auto-fill, 244px)  !important;
+  width: 100%;
+  gap: 20px !important; 
+  justify-content: center;
+}
+
+.movie-card {
+  width: min-content;
+} 
+
+.container {
+  padding: 20px;
 }
